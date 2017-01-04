@@ -569,7 +569,10 @@
 ## Comparison Operators & Equality
 
   - Use `===` and `!==` over `==` and `!=`.
-  - Conditional statements such as the `if` statement evaluate their expression using coercion with the `ToBoolean` abstract method and always follow these simple rules:
+  - Conditional statements such as the `if` statement evaluate their expression using coercion with the `ToBoolean`
+  - In ServicePortal boolean values are actually strings and should be compared explicitly. 
+  - Use `==` when comparing things from java (i.e. gliderecord, $sp, etc.)
+  abstract method and always follow these simple rules:
 
     + **Objects** evaluate to **true**
     + **Undefined** evaluates to **false**
@@ -668,6 +671,10 @@
 
 ## Comments
 
+  - Include the NewRocket copyright block at the top of all widgets. 
+
+  - It is reccomended that a comment be placed above the function decleration. 
+
   - Use `/** ... */` for multi-line comments. Include a description, specify types and values for all parameters and return values.
 
     ```javascript
@@ -761,24 +768,7 @@
 
 ## Whitespace
 
-  - Use soft tabs set to 2 spaces.
-
-    ```javascript
-    // bad
-    function () {
-    ∙∙∙∙var name;
-    }
-
-    // bad
-    function () {
-    ∙var name;
-    }
-
-    // good
-    function () {
-    ∙∙var name;
-    }
-    ```
+  - Use tabs which are set automatically by ServicePortal.
 
   - Place 1 space before the leading brace.
 
@@ -1124,6 +1114,12 @@
 
 
 ## Naming Conventions
+
+  - Use dashes '-' for widget ID's, class names and instance ID's. 
+
+  - Use underscores '_' for page, table and field names. 
+
+  - Use camelCase for everything else. 
 
   - Avoid single letter names. Be descriptive with your naming.
 
