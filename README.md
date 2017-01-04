@@ -1,4 +1,4 @@
-# Airbnb JavaScript Style Guide() {
+# NewRocket JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
 
@@ -15,6 +15,7 @@ Other Style Guides
 
 ## Table of Contents
 
+  1. [Naming](#naming)
   1. [Types](#types)
   1. [References](#references)
   1. [Objects](#objects)
@@ -51,6 +52,11 @@ Other Style Guides
   1. [Chat With Us About JavaScript](#chat-with-us-about-javascript)
   1. [Contributors](#contributors)
   1. [License](#license)
+
+## Naming 
+
+  <a name="naming"></a><a name="NR1.1"></a>
+  - [NR1.1](#naming) **Naming New Widgets**: New widgets should be named with the prefix “NewRocket” followed by a space and the name of the widget in title case, they should have an ID with a prefix of “nr-” followed by the name of the widget in lower case separated by “-”’s. 
 
 ## Types
 
