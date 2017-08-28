@@ -11,7 +11,7 @@
   - [BP1.2](#general) **Restrict use of CSS**: Use as little CSS as possible. 
   - [BP1.3](#general) **Exporting Widgets**: Never export a widget from a list view. When exporting a widget always do so from the widget record itself. Use the hamburger menu select export from the dropdown menu and then click export xml (this record)
   - [BP1.4](#general) **Embedding Widgets**: When embedding a widget use sp-widget and pass it in scope as opposed to using widget which automatically embeds widgets. 
- - [BP1.5](#general) **Creating a tabbed view**: When creating a tabbed view make sure to use the semantic Bootstrap process as outlined in the example below
+ - [BP1.5](#general) **Creating a Tabbed View**: When creating a tabbed view make sure to use the semantic Bootstrap process as outlined in the example below
  ```HTML
 <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
